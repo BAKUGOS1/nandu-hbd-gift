@@ -15,7 +15,7 @@ export const FinaleScene: React.FC<FinaleSceneProps> = ({ onReplay }) => {
       <FloatingHearts />
 
       {/* Ambient background glow */}
-      <div className="absolute w-96 h-96 rounded-full bg-rose-500/20 blur-3xl animate-pulse-slow pointer-events-none" />
+      <div className="absolute w-72 h-72 rounded-full bg-rose-500/15 blur-xl pointer-events-none transform-gpu" />
 
       {/* Decorative top icon */}
       <div className="mb-6 flex items-center justify-center text-roseGold-300">
